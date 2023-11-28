@@ -20,7 +20,7 @@
   display: flex;
   flex-direction: column;
   align-items: start;
-  margin-left: -600px;
+  margin-left: -500px;
 }
 
 .date, .population {
@@ -66,4 +66,20 @@
   letter-spacing: -0.6px;
   text-align: left;
   color: #8B8B8B;
+}
+
+.additionalInfo {
+  font-family: Pretendard;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: -0.6px;
+  text-align: left;
+  color: #8B8B8B;
+}
+
+.weatherDetails {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
